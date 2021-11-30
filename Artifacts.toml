@@ -1,0 +1,142 @@
+[[Kokkos]]
+arch = "aarch64"
+git-tree-sha1 = "f29ef96f010df0ae8453d45def62b376d61c480b"
+os = "macos"
+
+    [[Kokkos.download]]
+    sha256 = "75bbaabadf70f45f299e1e352a56dc24de61d3baf16c8ab2f35aff911fcc4a71"
+    url = "https://github.com/JuliaBinaryWrappers/Kokkos_jll.jl/releases/download/Kokkos-v3.5.0+0/Kokkos.v3.5.0.aarch64-apple-darwin.tar.gz"
+[[Kokkos]]
+arch = "aarch64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "bd2c956245023d9e3dc4999122567d312a41118b"
+libc = "glibc"
+os = "linux"
+
+    [[Kokkos.download]]
+    sha256 = "6436a9f31acbb53dc023f3f555aa9cd9885ecda295679478dd162008adcace26"
+    url = "https://github.com/JuliaBinaryWrappers/Kokkos_jll.jl/releases/download/Kokkos-v3.5.0+0/Kokkos.v3.5.0.aarch64-linux-gnu-cxx03.tar.gz"
+[[Kokkos]]
+arch = "aarch64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "812d0578301b97390552d8ebf805c211fac0ea1e"
+libc = "glibc"
+os = "linux"
+
+    [[Kokkos.download]]
+    sha256 = "c3188d8528515b0be429b42d763c2059d2d76e8d9ed57e29d4b6f3cc28cb735c"
+    url = "https://github.com/JuliaBinaryWrappers/Kokkos_jll.jl/releases/download/Kokkos-v3.5.0+0/Kokkos.v3.5.0.aarch64-linux-gnu-cxx11.tar.gz"
+[[Kokkos]]
+arch = "aarch64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "187b51c278a5372e28bff4841df9951b8073111b"
+libc = "musl"
+os = "linux"
+
+    [[Kokkos.download]]
+    sha256 = "bcfd60f9626d8f650e7362e4f256bc042749728afc5f94c641ffa43d92ab7fea"
+    url = "https://github.com/JuliaBinaryWrappers/Kokkos_jll.jl/releases/download/Kokkos-v3.5.0+0/Kokkos.v3.5.0.aarch64-linux-musl-cxx03.tar.gz"
+[[Kokkos]]
+arch = "aarch64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "62a0eda3d98602ba3eac53592fe0f289539141b3"
+libc = "musl"
+os = "linux"
+
+    [[Kokkos.download]]
+    sha256 = "a80faa2490c854bcbe56f2d3322d91e9363cfe9ccab9a6d37ceeae43bc533a04"
+    url = "https://github.com/JuliaBinaryWrappers/Kokkos_jll.jl/releases/download/Kokkos-v3.5.0+0/Kokkos.v3.5.0.aarch64-linux-musl-cxx11.tar.gz"
+[[Kokkos]]
+arch = "powerpc64le"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "247f0f756d0e06bbbfca0015d4a7bb914a3f68eb"
+libc = "glibc"
+os = "linux"
+
+    [[Kokkos.download]]
+    sha256 = "8939eb52fff14b6f7b669f4d61226bb300ecab66b0ff86163d509747502a6f74"
+    url = "https://github.com/JuliaBinaryWrappers/Kokkos_jll.jl/releases/download/Kokkos-v3.5.0+0/Kokkos.v3.5.0.powerpc64le-linux-gnu-cxx03.tar.gz"
+[[Kokkos]]
+arch = "powerpc64le"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "3071c163f11a91b8087604a56cbeb77570a1828f"
+libc = "glibc"
+os = "linux"
+
+    [[Kokkos.download]]
+    sha256 = "29ab2ee777b3862ec09fc324ab741b0f305c73e88f5f1ef4d4b001581f08d55e"
+    url = "https://github.com/JuliaBinaryWrappers/Kokkos_jll.jl/releases/download/Kokkos-v3.5.0+0/Kokkos.v3.5.0.powerpc64le-linux-gnu-cxx11.tar.gz"
+[[Kokkos]]
+arch = "x86_64"
+git-tree-sha1 = "de8fa6e474803134350893172bf18d174f100739"
+os = "macos"
+
+    [[Kokkos.download]]
+    sha256 = "e4cc6a4a1bfc136c5a4bc4b9856150f5e4e3386206317a22dc8aa35b2ab46789"
+    url = "https://github.com/JuliaBinaryWrappers/Kokkos_jll.jl/releases/download/Kokkos-v3.5.0+0/Kokkos.v3.5.0.x86_64-apple-darwin.tar.gz"
+[[Kokkos]]
+arch = "x86_64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "4ea6770022ef8070d01b71f855ce804c0fcefdee"
+libc = "glibc"
+os = "linux"
+
+    [[Kokkos.download]]
+    sha256 = "5cd540f678632d996bc980f99200aec0e5e78f58801e0c3ef9fdd81024ffdf9e"
+    url = "https://github.com/JuliaBinaryWrappers/Kokkos_jll.jl/releases/download/Kokkos-v3.5.0+0/Kokkos.v3.5.0.x86_64-linux-gnu-cxx03.tar.gz"
+[[Kokkos]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "893d6689af3ac9f443fcef1c501b6a1aabc4506a"
+libc = "glibc"
+os = "linux"
+
+    [[Kokkos.download]]
+    sha256 = "3418164ec8a00445ad72e62e22b72f1c9dec8f48e0eb65a173d6427b0643b950"
+    url = "https://github.com/JuliaBinaryWrappers/Kokkos_jll.jl/releases/download/Kokkos-v3.5.0+0/Kokkos.v3.5.0.x86_64-linux-gnu-cxx11.tar.gz"
+[[Kokkos]]
+arch = "x86_64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "d589c2253e7aa0de5508a44840db09ecd21f16ed"
+libc = "musl"
+os = "linux"
+
+    [[Kokkos.download]]
+    sha256 = "ab37a663daafe267e6f2fcc5899dcaa163e5183f039e37e2f03892bf2ae41144"
+    url = "https://github.com/JuliaBinaryWrappers/Kokkos_jll.jl/releases/download/Kokkos-v3.5.0+0/Kokkos.v3.5.0.x86_64-linux-musl-cxx03.tar.gz"
+[[Kokkos]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "8f34491eaf69c32f4a1dcdacb334090b481d131f"
+libc = "musl"
+os = "linux"
+
+    [[Kokkos.download]]
+    sha256 = "568623d545ef6a56a14644ca1cf18adf4839b5d18d55248a42c45d8450ca6f44"
+    url = "https://github.com/JuliaBinaryWrappers/Kokkos_jll.jl/releases/download/Kokkos-v3.5.0+0/Kokkos.v3.5.0.x86_64-linux-musl-cxx11.tar.gz"
+[[Kokkos]]
+arch = "x86_64"
+git-tree-sha1 = "6b0a73d993f9105013844735e7cfdcab6493974f"
+os = "freebsd"
+
+    [[Kokkos.download]]
+    sha256 = "5a887ac6e6e6509f8601b7683d1500b42401505e92c527277dbbb2d48bc4871e"
+    url = "https://github.com/JuliaBinaryWrappers/Kokkos_jll.jl/releases/download/Kokkos-v3.5.0+0/Kokkos.v3.5.0.x86_64-unknown-freebsd.tar.gz"
+[[Kokkos]]
+arch = "x86_64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "1bdbe24fe6efce7d09ffb453e538935cce71e377"
+os = "windows"
+
+    [[Kokkos.download]]
+    sha256 = "4ec5295bcf7574651197af710bebab51233d2adad9b4e752fe5fd0860695bf6b"
+    url = "https://github.com/JuliaBinaryWrappers/Kokkos_jll.jl/releases/download/Kokkos-v3.5.0+0/Kokkos.v3.5.0.x86_64-w64-mingw32-cxx03.tar.gz"
+[[Kokkos]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "8331634c05a730dd586b38295b33251548e4c5f5"
+os = "windows"
+
+    [[Kokkos.download]]
+    sha256 = "4a8e43bb7713637b91417498e5a02f6212f5038aa8de1a96d2c90af88b677928"
+    url = "https://github.com/JuliaBinaryWrappers/Kokkos_jll.jl/releases/download/Kokkos-v3.5.0+0/Kokkos.v3.5.0.x86_64-w64-mingw32-cxx11.tar.gz"
