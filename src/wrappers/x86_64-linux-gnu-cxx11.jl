@@ -3,8 +3,8 @@ export libkokkoscontainers, libkokkoscore
 
 using CompilerSupportLibraries_jll
 JLLWrappers.@generate_wrapper_header("Kokkos")
-JLLWrappers.@declare_library_product(libkokkoscontainers, "libkokkoscontainers.so.3.5")
-JLLWrappers.@declare_library_product(libkokkoscore, "libkokkoscore.so.3.5")
+JLLWrappers.@declare_library_product(libkokkoscontainers, "libkokkoscontainers.so.3.6")
+JLLWrappers.@declare_library_product(libkokkoscore, "libkokkoscore.so.3.6")
 function __init__()
     JLLWrappers.@generate_init_header(CompilerSupportLibraries_jll)
     JLLWrappers.@init_library_product(
