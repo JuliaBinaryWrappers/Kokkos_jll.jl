@@ -9,13 +9,13 @@ function __init__()
     JLLWrappers.@generate_init_header(LLVMOpenMP_jll)
     JLLWrappers.@init_library_product(
         libkokkoscontainers,
-        "lib/libkokkoscontainers.3.6.00.dylib",
+        "lib/libkokkoscontainers.3.6.01.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
     JLLWrappers.@init_library_product(
         libkokkoscore,
-        "lib/libkokkoscore.3.6.00.dylib",
+        "lib/libkokkoscore.3.6.01.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
