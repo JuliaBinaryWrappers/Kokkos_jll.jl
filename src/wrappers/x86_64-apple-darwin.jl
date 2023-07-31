@@ -3,19 +3,19 @@ export libkokkoscontainers, libkokkoscore
 
 using LLVMOpenMP_jll
 JLLWrappers.@generate_wrapper_header("Kokkos")
-JLLWrappers.@declare_library_product(libkokkoscontainers, "@rpath/libkokkoscontainers.3.6.dylib")
-JLLWrappers.@declare_library_product(libkokkoscore, "@rpath/libkokkoscore.3.6.dylib")
+JLLWrappers.@declare_library_product(libkokkoscontainers, "@rpath/libkokkoscontainers.3.7.dylib")
+JLLWrappers.@declare_library_product(libkokkoscore, "@rpath/libkokkoscore.3.7.dylib")
 function __init__()
     JLLWrappers.@generate_init_header(LLVMOpenMP_jll)
     JLLWrappers.@init_library_product(
         libkokkoscontainers,
-        "lib/libkokkoscontainers.3.6.01.dylib",
+        "lib/libkokkoscontainers.3.7.02.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
     JLLWrappers.@init_library_product(
         libkokkoscore,
-        "lib/libkokkoscore.3.6.01.dylib",
+        "lib/libkokkoscore.3.7.02.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
