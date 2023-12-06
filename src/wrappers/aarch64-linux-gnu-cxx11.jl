@@ -3,9 +3,9 @@ export libkokkoscontainers, libkokkoscore, libkokkossimd
 
 using CompilerSupportLibraries_jll
 JLLWrappers.@generate_wrapper_header("Kokkos")
-JLLWrappers.@declare_library_product(libkokkoscontainers, "libkokkoscontainers.so.4.1")
-JLLWrappers.@declare_library_product(libkokkoscore, "libkokkoscore.so.4.1")
-JLLWrappers.@declare_library_product(libkokkossimd, "libkokkossimd.so.4.1")
+JLLWrappers.@declare_library_product(libkokkoscontainers, "libkokkoscontainers.so.4.2")
+JLLWrappers.@declare_library_product(libkokkoscore, "libkokkoscore.so.4.2")
+JLLWrappers.@declare_library_product(libkokkossimd, "libkokkossimd.so.4.2")
 function __init__()
     JLLWrappers.@generate_init_header(CompilerSupportLibraries_jll)
     JLLWrappers.@init_library_product(
